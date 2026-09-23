@@ -83,7 +83,7 @@ friendly and very fast. No credit card needed for the free tier.
    python -m pip install -r requirements.txt
    ```
 
-2. **Add your API key locally:**
+2. **Add your API key locally:** 
    Create a new folder '.streamlit':
    ```bash
    mkdir .streamlit
