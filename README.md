@@ -5,7 +5,7 @@ A production-style Retrieval-Augmented Generation chatbot — not a basic
 ask questions across all of them in a real conversation, and get answers
 grounded in your documents with source citations.
 
-**Live demo:** _add your Streamlit Cloud link here after deploying_
+**Live demo:**  [RAG Chatbot App](https://rag-chatbot-shivampanday.streamlit.app/)
 
 ---
 
@@ -67,8 +67,7 @@ rag-chatbot/
 ## 🔑 Getting a free Groq API key
 
 This project uses [Groq](https://console.groq.com) for the LLM — it's free-tier
-friendly and very fast (runs Llama models on custom hardware). No credit card
-needed for the free tier.
+friendly and very fast. No credit card needed for the free tier.
 
 1. Go to [console.groq.com](https://console.groq.com) and sign up
 2. Go to **API Keys** → **Create API Key**
@@ -128,7 +127,7 @@ needed for the free tier.
 ## ✍️ Resume bullet (once deployed)
 
 > Built an advanced RAG chatbot with hybrid retrieval (FAISS vector search
-> + BM25, fused via Reciprocal Rank Fusion) and cross-encoder reranking,
+> plus BM25, fused via Reciprocal Rank Fusion) and cross-encoder reranking,
 > supporting multi-document Q&A with conversational query rewriting,
 > streaming answers, and source citations.
 
