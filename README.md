@@ -84,8 +84,8 @@ friendly and very fast. No credit card needed for the free tier.
    ```
 
 2. **Add your API key locally:**
-   ```bash
    Create a new folder '.streamlit':
+   ```bash
    mkdir .streamlit
    ```
    Create a new file 'secrets.toml' in '.streamlit' folder, then open the 'secrets.toml' file and type this exactly one line shown below and paste your real Groq API key in there:
